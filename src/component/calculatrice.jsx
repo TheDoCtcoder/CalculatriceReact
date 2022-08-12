@@ -13,7 +13,7 @@ const Calculatrice = () => {
         event.preventDefault(); 
 
 
-        if (operateur === "/" && number2 ==="0") setResultat("Divison Impossible par zéro !!!") 
+        if (operateur === "/" && number2 ==="0") setResultat("C'est toi le Zéro !!!") 
 
         else 
 
