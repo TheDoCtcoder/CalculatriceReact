@@ -42,12 +42,15 @@ label {
 }
 
 input#resultat {
-  
-  width: 200px;
+  /* width: fit-content; */
+  text-align: center;
+  min-width: 350px;
   padding-right: 0px;
 
 }
 label#result{
+
+  width: max-content;
   /* text-align: left; */
   margin-left: 28px;
 }

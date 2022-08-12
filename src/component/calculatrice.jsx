@@ -10,7 +10,12 @@ const Calculatrice = () => {
     const [resultat, setResultat] = useState('');
 
     const handleSubmit = (event) => {
-        event.preventDefault();
+        event.preventDefault(); 
+
+
+        if (operateur === "/" && number2 ==="0") setResultat("Divison Impossible par zéro !!!") 
+
+        else 
 
         if (operateur === "-") {
             const total = parseFloat(number1 - number2)
