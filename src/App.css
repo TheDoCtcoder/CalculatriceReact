@@ -1,0 +1,56 @@
+.App {
+  /* display: flex; */
+  /* flex-direction:column; */
+  margin : 0;
+  padding: 0;
+  text-align: center;
+  background-color: rgb(46, 198, 249);
+  height: 100vh;
+  padding-top: 50px;
+}
+
+h1 {
+  color:white;
+}
+
+button {
+  font-size: 1.5rem;
+  margin-left: 75px;
+}
+
+input {
+  font-size: 1.5rem;
+  width: 200px;
+  margin-bottom: 15px;
+  
+}
+
+select {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  width: 210px;
+
+}
+
+select > option {
+
+  font-size: 1.5rem;
+}
+label {
+  font-size: 1.5rem;
+  padding-right: 15px;
+}
+
+input#resultat {
+  
+  width: 200px;
+  padding-right: 0px;
+
+}
+label#result{
+  /* text-align: left; */
+  margin-left: 28px;
+}
+
+
+
