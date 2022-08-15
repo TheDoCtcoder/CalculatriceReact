@@ -10,27 +10,15 @@ const Calculatrice = () => {
     const [resultat, setResultat] = useState('');
 
     const handleSubmit = (event) => {
-        event.preventDefault(); 
+        event.preventDefault();
 
 
-        if (operateur === "/" && number2 ==="0") setResultat("C'est toi le Zéro !!!") 
+        if (operateur === "/" && number2 === "0") setResultat("C'est toi le Zéro !!!")
 
-        else 
+        else
 
-        if (operateur === "-") {
-            const total = parseFloat(number1 - number2)
-            setResultat(total)
-        }
-
-        else if (operateur === "*")
-            setResultat(parseFloat(number1 * number2))
-
-        else if (operateur === "/")
-            setResultat(parseFloat(number1 / number2))
-
-        else if (operateur === "+")
-        setResultat(parseFloat(number1) + parseFloat(number2));
-
+            setResultat(eval(number1 + operateur + number2));
+        
     }
     return (
         <form onSubmit={handleSubmit}>
